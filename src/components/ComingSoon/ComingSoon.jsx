@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import rwtaLogoTrans from '../../assets/rwta-trans.png';
 import comingSoonBg from '../../assets/coming-soon-2.jpg';
 
@@ -21,14 +21,11 @@ export default function ComingSoon() {
           <p className="w-100 text-gray-800 md:text-lg md:w-8/12 md:mx-auto">We're hard at work constructing the future of forex education. Stay tuned for a transformative learning experience!</p>
         </div>
         <div className="coming-soon-socmed flex flex-row justify-center items-center mt-10 gap-7">
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="https://www.facebook.com/profile.php?id=100089567463636" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
-          <a href="#" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faTwitter} size="2x" />
-          </a>
-          <a href="#" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faInstagram} size="2x" />
+          <a href="https://www.tiktok.com/@christian_napocao?_t=8ef0dh2Xcf3&_r=1" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faTiktok} size="2x" />
           </a>
         </div>
       </div>
