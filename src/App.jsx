@@ -1,11 +1,10 @@
 import React from 'react';
-import ComingSoon from './components/ComingSoon/ComingSoon';
+import Home from './pages/Home';
 import './App.css';
 
 function App() {
   return (
-    // Coming Soon
-    <ComingSoon />
+    <Home />
   );
 }
 
