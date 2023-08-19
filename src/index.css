@@ -10,18 +10,46 @@
     @apply font-nunito font-light text-gray-800;
 }
 
+.par-2 {
+    @apply font-nunito font-light text-white;
+}
+
 .header-1 {
     @apply font-roboto-slab text-gray-700 leading-tight;
+}
+
+.header-2 {
+    @apply font-roboto-slab text-white leading-tight;
 }
 
 .subheader-1 {
     @apply font-roboto-slab text-blue-900 leading-tight;
 }
 
+.subheader-2 {
+    @apply font-roboto-slab text-white leading-tight;
+}
+
 .divider-1 {
     @apply h-[5px] w-1/4 mx-auto my-5 bg-red-500;
 }
 
+.divider-2 {
+    @apply h-[5px] w-1/4 mx-auto my-5 bg-green-700;
+}
+
 .box {
     @apply border-2 rounded-lg text-center p-6;
+}
+
+.overlay {
+    @apply h-full bg-green-900 w-full absolute z-10 opacity-40;
+}
+
+.btn-1 {
+    @apply font-nunito bg-red-500 hover:bg-red-600 text-white w-[220px] px-6 py-3 rounded-full text-xl font-extrabold;
+}
+
+.btn-2 {
+    @apply font-nunito bg-green-500 hover:bg-green-600 text-white w-[220px] px-6 py-3 rounded-full text-xl font-extrabold;
 }
