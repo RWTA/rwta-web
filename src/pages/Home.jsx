@@ -5,6 +5,7 @@ import FinancialFreedom from "../components/FinancialFreedom";
 import Programs from "../components/Programs";
 import Testimonial from "../components/Testimonial";
 import Faq from "../components/Faq";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Programs />
       <Testimonial />
       <Faq />
+      <Footer />
     </div>
   );
 }
