@@ -1,8 +1,13 @@
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import logo from "../assets/rwta-trans.png";
 
 function Footer() {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <footer className="bg-gray-800 text-white p-7">
       <div className="flex justify-center items-center mb-2">
@@ -11,21 +16,51 @@ function Footer() {
         </a>
       </div>
       <div className="flex justify-center space-x-4">
-        <a href="#" className="font-nunito text-gray-300 hover:text-white">
+        <ScrollLink
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="font-nunito text-gray-300 hover:text-white cursor-pointer"
+        >
           About
-        </a>
-        <a href="#" className="font-nunito text-gray-300 hover:text-white">
+        </ScrollLink>
+        <ScrollLink
+          to="courses"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="font-nunito text-gray-300 hover:text-white cursor-pointer"
+        >
           Courses
-        </a>
-        <a href="#" className="font-nunito text-gray-300 hover:text-white">
+        </ScrollLink>
+        <ScrollLink
+          to="videos"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="font-nunito text-gray-300 hover:text-white cursor-pointer"
+        >
           Videos
-        </a>
-        <a href="#" className="font-nunito text-gray-300 hover:text-white">
+        </ScrollLink>
+        <ScrollLink
+          to="testimonials"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="font-nunito text-gray-300 hover:text-white cursor-pointer"
+        >
           Testimonials
-        </a>
-        <a href="#" className="font-nunito text-gray-300 hover:text-white">
+        </ScrollLink>
+        <ScrollLink
+          to="faqs"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="font-nunito text-gray-300 hover:text-white cursor-pointer"
+        >
           FAQs
-        </a>
+        </ScrollLink>
       </div>
       <div className="flex justify-center space-x-4 mt-4">
         <a

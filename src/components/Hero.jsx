@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import heroImage from "../assets/hero1.jpg";
 
 function Hero() {

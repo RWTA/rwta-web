@@ -63,7 +63,7 @@ const programs = [
 
 function Programs() {
   return (
-    <section id="programs" className="bg-gray-100 py-16">
+    <section id="videos" className="bg-gray-100 py-16">
       <div className="max-w-6xl mx-auto px-4">
         <h3 className="header-1 font-bold mb-3 text-4xl text-center">
           WHAT YOU&apos;LL LEARN

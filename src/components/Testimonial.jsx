@@ -32,7 +32,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <section id="testimonial" className="bg-gray-200 py-16">
+    <section id="testimonials" className="bg-gray-200 py-16">
       <div className="max-w-6xl mx-auto px-4">
         <h3 className="header-1 font-bold mb-3 text-4xl text-center">
           WHAT OUR STUDENTS SAY

@@ -1,10 +1,14 @@
-import React from "react";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import logo from "../assets/rwta-trans.png";
 
 function Navbar() {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <nav className="bg-white">
       {/* Top Section */}
@@ -46,44 +50,59 @@ function Navbar() {
         </div>
         <ul className="flex space-x-8">
           <li>
-            <a
-              href="#"
-              className="font-nunito text-gray-800 font-bold hover:text-green-600"
+            <ScrollLink
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="font-nunito text-gray-800 font-bold hover:text-green-600 cursor-pointer"
             >
               ABOUT
-            </a>
+            </ScrollLink>
           </li>
           <li>
-            <a
-              href="#"
-              className="font-nunito text-gray-800 font-bold hover:text-green-600"
+            <ScrollLink
+              to="courses"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="font-nunito text-gray-800 font-bold hover:text-green-600 cursor-pointer"
             >
               COURSES
-            </a>
+            </ScrollLink>
           </li>
           <li>
-            <a
-              href="#"
-              className="font-nunito text-gray-800 font-bold hover:text-green-600"
+            <ScrollLink
+              to="videos"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="font-nunito text-gray-800 font-bold hover:text-green-600 cursor-pointer"
             >
               VIDEOS
-            </a>
+            </ScrollLink>
           </li>
           <li>
-            <a
-              href="#"
-              className="font-nunito text-gray-800 font-bold hover:text-green-600"
+            <ScrollLink
+              to="testimonials"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="font-nunito text-gray-800 font-bold hover:text-green-600 cursor-pointer"
             >
               TESTIMONIALS
-            </a>
+            </ScrollLink>
           </li>
           <li>
-            <a
-              href="#"
-              className="font-nunito text-gray-800 font-bold hover:text-green-600"
+            <ScrollLink
+              to="faqs"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="font-nunito text-gray-800 font-bold hover:text-green-600 cursor-pointer"
             >
               FAQS
-            </a>
+            </ScrollLink>
           </li>
         </ul>
       </div>

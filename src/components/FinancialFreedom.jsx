@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function FinancialFreedom() {
   return (
     <section
-      id="freedom"
+      id="courses"
       className="bg-cover bg-fixed bg-center relative z-0"
       style={{ backgroundImage: `url(${financialFreedom})` }}
     >
