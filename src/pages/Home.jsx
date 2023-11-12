@@ -1,10 +1,10 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import FinancialFreedom from "../components/FinancialFreedom";
 import Programs from "../components/Programs";
 import Testimonial from "../components/Testimonial";
+import Faq from "../components/Faq";
 
 function Home() {
   return (
@@ -15,6 +15,7 @@ function Home() {
       <FinancialFreedom />
       <Programs />
       <Testimonial />
+      <Faq />
     </div>
   );
 }
