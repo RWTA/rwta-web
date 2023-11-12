@@ -12,7 +12,7 @@ function Footer() {
       </div>
       <div className="flex justify-center space-x-4">
         <a href="#" className="font-nunito text-gray-300 hover:text-white">
-          About Us
+          About
         </a>
         <a href="#" className="font-nunito text-gray-300 hover:text-white">
           Courses
