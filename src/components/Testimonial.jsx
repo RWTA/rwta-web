@@ -53,7 +53,14 @@ const Testimonial = () => {
         </div>
 
         <div className="text-center mt-10">
-          <button className="btn-1">ENROLL NOW!</button>
+          <a
+            href="https://forms.gle/j8MLxJquiA63F9Xs7"
+            target="_blank"
+            rel="noreferrer"
+            className="btn-1 block mx-auto"
+          >
+            ENROLL NOW!
+          </a>
         </div>
       </div>
     </section>

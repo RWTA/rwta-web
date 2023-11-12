@@ -41,7 +41,6 @@ function FinancialFreedom() {
                 height="315"
                 src="https://www.youtube.com/embed/LfhOrP0u6f8"
                 title="YouTube video player"
-                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
@@ -85,7 +84,14 @@ function FinancialFreedom() {
                   </p>
                 </div>
               </div>
-              <button className="btn-2 mt-4">ENROLL NOW!</button>
+              <a
+                href="https://forms.gle/j8MLxJquiA63F9Xs7"
+                target="_blank"
+                rel="noreferrer"
+                className="btn-2 block mt-4 text-center"
+              >
+                ENROLL NOW!
+              </a>
             </div>
           </div>
         </div>
